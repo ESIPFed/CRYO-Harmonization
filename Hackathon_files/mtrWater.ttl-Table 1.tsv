@@ -1,0 +1,15 @@
+Term label 	SWEET Term IRI	SWEET Term Type	ENVO label	ENVO Term IRI	New term	Harmonized GCW Definition	ENVO definition	External definition and source	Tackled?	Notes																					
+brine	http://sweetontology.net/matrWater/Brine	class	brine	http://purl.obolibrary.org/obo/ENVO_00003044			Water saturated or nearly saturated with salt (NaCl).		yes	"ENVO term is more general than GCW definition but is acceptable ""Small droplets of highly saline water that form in pockets between ice crystals, as sea ice forms and expels salt into the underlying ocean water."""																					
+depth hoar	http://sweetontology.net/matrWater/DepthHoar	class	depth hoar	http://purl.obolibrary.org/obo/ENVO_01001846					yes																						
+frost	http://sweetontology.net/matrWater/Frost	class	frost	http://purl.obolibrary.org/obo/ENVO_01001850					yes																						
+granular ice	http://sweetontology.net/matrWater/GranularIce	class				NA				We'll come back to this after terms with GCW definitions are done																					
+hoar crystal	http://sweetontology.net/matrWater/HoarCrystal	class	hoar crystal	http://purl.obolibrary.org/obo/ENVO_01001883					yes																						
+ice	http://sweetontology.net/matrWater/Ice	class	water ice	http://purl.obolibrary.org/obo/ENVO_01000277					yes																						
+ice crystal	http://sweetontology.net/matrWater/IceCrystal	class	ice crystal	http://purl.obolibrary.org/obo/ENVO_01000846			A crystal which is primarily composed of water ice.		yes																						
+ice particle	http://sweetontology.net/matrWater/IceParticle	class				NA																									
+rime	http://sweetontology.net/matrWater/Rime	class		http://purl.obolibrary.org/obo/ENVO_01001848					yes																						
+snow	http://sweetontology.net/matrWater/Snow	class	snow	http://purl.obolibrary.org/obo/ENVO_01000406			Snow is an environmental material which is primarily composed of flakes of crystalline water ice.		yes																						
+snow facies	http://sweetontology.net/matrWater/SnowFacies	class				NA																									
+snow grain	http://sweetontology.net/matrWater/SnowGrain	class							Needs to be done																						
+frozen	http://sweetontology.net/statePhysical/Frozen	individuals				NA				In PATO; http://purl.obolibrary.org/obo/PATO_0001985; A quality inhering in a bearer by virtue of the bearer's being kept below its freezing point.																					
+crystal	http://sweetontology.net/stateSolid/Crystal	individuals	crystal	http://purl.obolibrary.org/obo/ENVO_01000845			" A solid material whose constituents, such as atoms, molecules or ions, are arranged in a highly ordered microscopic structure, forming a crystal lattice that extends in all directions."		yes																						

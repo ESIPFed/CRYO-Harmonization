@@ -1,0 +1,18 @@
+Term label	SWEET Term IRI	SWEET Term Type	ENVO Term IRI	New term	Harmonized GCW Definition	ENVO definition	External definition and source	Tackled?	Notes																					
+Arete	http://sweetontology.net/realmLandGlacial/Arete	asd	http://purl.obolibrary.org/obo/ENVO_00000283			good																								
+																														
+Cirque	http://sweetontology.net/realmLandGlacial/Cirque				yes	ok		yes	Added 11/9/2022																					
+Esker	http://sweetontology.net/realmLandGlacial/Esker				yes	ok			Added 11/9/2022																					
+GlacialLandForm	http://sweetontology.net/realmLandGlacial/GlacialLandform				no	none			Added 11/9/2022																					
+GlacialMoraine	http://sweetontology.net/realmLandGlacial/GlacialMoraine				no	none			Added 11/9/2022 - SWEET calls this an equivalent class to Moraine																					
+GlacialOutwashPlain	http://sweetontology.net/realmLandGlacial/GlacialOutwashPlain				no	none			Added 11/9/2022																					
+GlacialPlain	http://sweetontology.net/realmLandGlacial/GlacialPlain				no	none			Added 11/9/2022 - a SWEET landform																					
+Kame	http://sweetontology.net/realmLandGlacial/Kame				yes	ok			Added 11/9/2022																					
+Moraine	http://sweetontology.net/realmLandGlacial/Moraine				yes	ok			Added 11/9/2022																					
+OutwashFan	http://sweetontology.net/realmLandGlacial/OutwashFan				no	ok			Added 11/9/2022																					
+RockGlacier	http://sweetontology.net/realmLandGlacial/RockGlacier				yes	none			Added 11/9/2022																					
+Sandur	http://sweetontology.net/realmLandGlacial/Sandur				yes	ok			Added 11/9/2022																					
+Thermokarst	http://sweetontology.net/realmLandGlacial/Thermokarst				yes	Good		yes	Added 11/9/2022																					
+Till	http://sweetontology.net/realmLandGlacial/Till				yes	none			Added 11/9/2022																					
+TillPlain	http://sweetontology.net/realmLandGlacial/TillPlain				yes	ok			Added 11/9/2022																					
+UShapedValley	http://sweetontology.net/realmLandGlacial/UShapedValley				yes	none			Added 11/9/2022																					

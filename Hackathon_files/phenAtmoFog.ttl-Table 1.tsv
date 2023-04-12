@@ -1,0 +1,4 @@
+Term label	SWEET Term IRI	SWEET Term Type	ENVO label	ENVO Term IRI	New term	Harmonized GCW Definition	ENVO definition	External definition and source	Tackled?	Notes																					
+freezing fog	http://sweetontology.net/phenAtmoFog/FreezingFog								YES	See https://docs.google.com/spreadsheets/d/1Xt3BHNz-pP2ggJq_asPPcuKuGEAKtbT3MU2wFLTnCmQ/edit?usp=sharing																					
+ice fog	http://sweetontology.net/phenAtmoFog/IceFog								Yes	See https://docs.google.com/spreadsheets/d/1Xt3BHNz-pP2ggJq_asPPcuKuGEAKtbT3MU2wFLTnCmQ/edit?usp=sharing																					
+freezing	http://sweetontology.net/procStateChange/Freezing					NA			Yes	See https://docs.google.com/spreadsheets/d/1Xt3BHNz-pP2ggJq_asPPcuKuGEAKtbT3MU2wFLTnCmQ/edit?usp=sharing																					

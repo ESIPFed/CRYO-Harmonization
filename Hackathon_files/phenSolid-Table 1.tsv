@@ -1,0 +1,9 @@
+Term label	SWEET Term IRI	SWEET Term Type	ENVO Term IRI	New term	Harmonized GCW Definition	ENVO definition	External definition and source	Tackled?	Notes																					
+ablation	http://sweetontology.net/phenSolid/Ablation	class	NA																											
+																														
+accretion	http://sweetontology.net/phenSolid/Accretion				yes	none			added 11/9/2022																					
+Congelation	http://sweetontology.net/phenSolid/Congelation				yes	sort of - material congelation process			added 11/9/2022																					
+Ridging	http://sweetontology.net/phenSolid/Ridging				yes	none			added 11/9/2022																					
+Shear	http://sweetontology.net/phenSolid/Shear				no - has shearing and shear zone	none			added 11/9/2022 - Note GCW does have shearing																					
+Thinning	http://sweetontology.net/phenSolid/Thinning				no - has shearing and shear zone	none			added 11/9/2022																					
+Wasting	http://sweetontology.net/phenSolid/Wasting				no - has downwasting; edge wasting; mass wasting	sort of - mass wasting (a process)		yes	added 11/9/2022																					

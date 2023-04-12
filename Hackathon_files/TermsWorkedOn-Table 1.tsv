@@ -1,0 +1,16 @@
+SWEET ontology	Total terms	Cryospheric Terms	Overlapping GCW Terms	GCW + ENVO Overlapping Terms
+realmCryo.ttl	32	32	12	11
+phenCryo.ttl	17	17	14	11
+mtrWater.ttl	41	14	10	9
+phenAtmoFog.ttl	32	3	3	3
+realmClimateZone.ttl	24	3	3	1
+realm.ttl	20	1	1	1
+realmOcean.ttl	26	1	1	1
+realmSoil.ttl	34	5	5	5
+propTime.ttl	41	5	0	0
+propSpaceThickness.ttl	32	3	3	3
+phenHydro.ttl	33	2	1	1
+phenAtmoPrecipitation.ttl	58	15	13	12
+realmLandGlacial.ttl	18	16	11	9
+phenSolid.ttl	63	7	4	3
+Total Terms assessed	471	124	81	70

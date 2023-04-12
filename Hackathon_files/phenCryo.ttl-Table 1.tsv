@@ -1,0 +1,20 @@
+Term label	SWEET Term IRI	SWEET Term Type	ENVO label	ENVO Term IRI	New term	Harmonized GCW Definition	ENVO definition	External definition and source	Tackled?	Notes																					
+accumulation	http://sweetontology.net/phenCryo/Accumulation	class	"ice gain, ice mass"	"http://purl.obolibrary.org/obo/ENVO_03000011, http://purl.obolibrary.org/obo/ENVO_01000293"		"This term is used both as a process and as an amount of mass added. Semantically speaking these are two distinct concepts (e.g., accumulation results in accumulation_amount of ice or snow gain), though accumulation_amount would more likely be an attribute.
+
+The scope of this term varies depending on the definition.  Some definitions constrain themselves snow or ice added to glaciers; while others also include ice fields, snow cover, and/or floating ice.  How to resolve this depends on the scope desired.
+
+Some definitions include additional discussion of the the physics involved which would be useful for connecting glacier ontologies to atmospheric, hydrologic, etc. ontologies.  This information should be captured no matter how the inconsistencies above are resolved."	A material accumulation process during which the mass of an existing ice mass increases.		Yes																						
+calving	http://sweetontology.net/phenCryo/Calving		ice calving process	http://purl.obolibrary.org/obo/ENVO_01000917			A process during which a part of an ice mass breaks away from the main mass.																								
+englacial	http://sweetontology.net/phenCryo/Englacial		englacial process	http://purl.obolibrary.org/obo/ENVO_01001622					Yes	is this a quality?																					
+glacial	http://sweetontology.net/phenCryo/Glacial									is this a quality?																					
+glacial process	http://sweetontology.net/phenCryo/GlacialProcess		glacial process	http://purl.obolibrary.org/obo/ENVO_01001655					yes																						
+glaciation	http://sweetontology.net/phenCryo/Glaciation								Partly	"Glaciation is an odd term, applied to stretches of time and freezing-like processes. ENVO offers both options (http://purl.obolibrary.org/obo/ENVO_01001641, http://purl.obolibrary.org/obo/ENVO_01001640, but mapping here may be misleading as SWEET users would expect quite different semantics based on the hierarchy."																					
+glacier retreat	http://sweetontology.net/phenCryo/GlacierRetreat		glacial retreat 	http://purl.obolibrary.org/obo/ENVO_01001656					Yes																						
+ice calving	http://sweetontology.net/phenCryo/IceCalving		ice calving process 	http://purl.obolibrary.org/obo/ENVO_01000917					Yes	what's the difference with calving?																					
+periglacial	http://sweetontology.net/phenCryo/Periglacial		periglacial	http://purl.obolibrary.org/obo/ENVO_01001659					Yes	is this a quality?																					
+periglaciation	http://sweetontology.net/phenCryo/Periglaciation		NA	NA																											
+proglacial	http://sweetontology.net/phenCryo/Proglacial		proglacial	http://purl.obolibrary.org/obo/ENVO_01001879					Yes	is this a quality?																					
+subglacial	http://sweetontology.net/phenCryo/Subglacial		subglacial	http://purl.obolibrary.org/obo/ENVO_01001880					Yes	is this a quality?																					
+supraglacial	http://sweetontology.net/phenCryo/Supraglacial		supraglacial	http://purl.obolibrary.org/obo/ENVO_01001881					Yes	is this a quality?																					
+physical process	http://sweetontology.net/procPhysical/PhysicalProcess		NA	NA																											
+melting	http://sweetontology.net/procStateChange/Melting		melting	http://purl.obolibrary.org/obo/ENVO_01000723			Melting is a physical process that results in the phase transition of a substance from a solid to a liquid.		Yes																						

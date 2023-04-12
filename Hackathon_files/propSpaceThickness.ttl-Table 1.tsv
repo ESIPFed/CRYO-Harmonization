@@ -1,0 +1,4 @@
+Term label	SWEET Term IRI	SWEET Term Type	ENVO label	ENVO Term IRI	New term	Harmonized GCW Definition	ENVO definition	External definition and source	Tackled?	Notes																					
+snow cover	http://sweetontology.net/propSpaceThickness/SnowCover							"Snow cover—or the area of land that is covered by accumulated snow at any given time—helps regulate Earth's surface temperature when it is present, and it helps fill rivers and reservoirs once it melts away. from https://www.ncdc.noaa.gov/news/picture-climate-what%E2%80%99s-snow-cover-got-do-it"	yes	". The total amount of snow that accumulates on the ground in a given location, including that from snowfall, snowdrift, and avalanche."																					
+snow water equivalent	http://sweetontology.net/propSpaceThickness/SnowWaterEquivalent								yes																						
+snowpack	http://sweetontology.net/propSpaceThickness/Snowpack								yes																						
