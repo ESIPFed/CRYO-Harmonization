@@ -1,0 +1,70 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX GO: <http://purl.obolibrary.org/obo/GO_>
+PREFIX ENVO: <http://purl.obolibrary.org/obo/ENVO_>
+PREFIX PATO: <http://purl.obolibrary.org/obo/PATO_>
+PREFIX IAO: <http://purl.obolibrary.org/obo/IAO_>
+
+SELECT ?class ?label ?def ?editor_note ?parent_class ?parent_label
+  (GROUP_CONCAT(DISTINCT ?comment; SEPARATOR="|") AS ?comments)
+  (GROUP_CONCAT(DISTINCT ?subset; SEPARATOR=", ") AS ?subsets)
+  (GROUP_CONCAT(DISTINCT ?db_xref; SEPARATOR=", ") AS ?database_cross_reference)
+  (GROUP_CONCAT(DISTINCT ?def_ref; SEPARATOR=", ") AS ?definition_reference)
+  (GROUP_CONCAT(DISTINCT ?term_edtr; SEPARATOR=", ") AS ?term_editor)
+  (GROUP_CONCAT(DISTINCT ?crtd_by; SEPARATOR=", ") AS ?created_by)
+
+
+WHERE {
+  ?class a owl:Class .
+  #?class rdfs:subClassOf* ENVO:00000133. #ENVO:01000881 #temp to limit results
+  ?class rdfs:label ?label .
+
+  OPTIONAL {
+  ?x owl:annotatedProperty IAO:0000115.
+  ?x owl:annotatedSource ?class.
+  ?x <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ?def_ref.
+  }
+
+  OPTIONAL {
+  ?class IAO:0000115 ?def.
+  }
+
+  OPTIONAL {
+  ?class <http://www.geneontology.org/formats/oboInOwl#inSubset> ?subset.
+    OPTIONAL {
+    FILTER regex(?subset, "envoCryo")
+    }
+    OPTIONAL {
+    FILTER regex(?subset, "envoPolar")
+    }
+  }
+
+  OPTIONAL {
+  ?class <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ?db_xref.
+  FILTER regex(?db_xref, "sweet", "i")
+  }
+
+  OPTIONAL {
+  ?class rdfs:comment ?comment.
+  }
+
+  OPTIONAL {
+  ?class IAO:0000116 ?editor_note.
+  }
+
+  OPTIONAL {
+  ?class <http://www.geneontology.org/formats/oboInOwl#created_by> ?crtd_by.
+  }
+
+  OPTIONAL {
+  ?class IAO:0000117 ?term_edtr.
+  }
+
+  ?class rdfs:subClassOf ?parent_class.
+  ?parent_class a owl:Class ;
+      rdfs:label ?parent_label .
+
+}
+GROUP BY ?class ?label ?def ?editor_note ?parent_class ?parent_label
+ORDER BY ?label
